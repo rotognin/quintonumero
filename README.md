@@ -13,10 +13,9 @@ Tentativa | Pontos ganhos
 3ª | 2 pontos
 demais | 1 ponto
 
-### Este projeto está hospedado
+#### Este projeto será hospedado assim que estiver pronto para ser utilizado.
 
-Para acessar o projeto, visite [este link](https://rodrigotognin.com.br/quintonumero). 
-O usuário é <em>convidado</em> e a senha é <em>c0nv1d4d0</em>
+Versão do projeto: 0.1 (02/08/2022)
 
 ## Ambientes:
 
