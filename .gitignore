@@ -1,0 +1,11 @@
+teste.php
+error_log
+.vscode/
+vendor/
+log.txt
+composer.lock
+docker-compose.yml
+Dockerfile
+.dockerignore
+db.php
+stopdocker.sh

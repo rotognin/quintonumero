@@ -1,0 +1,3 @@
+- Sistema simples
+- Ambiente de administração, para registro das perguntas
+- Ambiente comum dos usuários para jogar e tentar acertar o quinto número

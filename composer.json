@@ -1,0 +1,28 @@
+{
+    "name": "rodrigo/quintonumero",
+    "description": "Jogo lógico para encontrar um número após uma sequência",
+    "require": {
+        "coffeecode/datalayer": "1.1.*"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/",
+            "Lib\\": "lib/"
+        },
+        "files": [
+            "src/config.php"
+        ],
+        "classmap": [
+            "src/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Rodrigo Tognin"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor/"
+    }
+}

@@ -1,0 +1,24 @@
+body { font-family: 'Noto Sans', sans-serif !important; }
+.branco { color:white; }
+.azul { color:#1b72ca; }
+.fundo-azul { background-color:#1b72ca; }
+.laranja { color:#cc9900; }
+.fundo-laranja { background-color:#cc9900; }
+.botao {
+    background-color:#003366;
+    color:white;
+}
+.botao-atencao {
+    background-color:#cc9900;
+    color:white;
+}
+a.acesso:link { color:#003366; }
+a.acesso:visited { color:#003366; }
+a.acesso:hover { color:#cc9900; }
+.borda-redonda { border-radius:0.25rem; }
+.margem-baixo { margin-bottom: 8px; }
+.sem-borda { border:0px; }
+.selecao { margin:0px; padding:5px; cursor:pointer; }
+.selecao:hover { background-color:cornflowerblue; }
+.selecao-click { color: white; background-color:rgb(144, 170, 218); font-weight: bold; }
+.barra-rolagem { height: 170px; overflow-y: scroll; }
