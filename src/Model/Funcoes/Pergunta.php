@@ -152,11 +152,6 @@ class Pergunta
             $this->pergunta->status = 0;
         }
 
-        echo '<pre>';
-        var_dump($this->pergunta);
-        echo '</pre>';
-        exit();
-
         if (!$this->validarCampos()){
             return false;
         }

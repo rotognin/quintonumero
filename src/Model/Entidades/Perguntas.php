@@ -8,6 +8,6 @@ class Perguntas extends DataLayer
 {
     public function __construct()
     {
-        parent::__construct('perguntas', ['numero1', 'numero2', 'numero3', 'numero4', 'resposta'], 'id', false);
+        parent::__construct('perguntas', [], 'id', false);
     }
 }
