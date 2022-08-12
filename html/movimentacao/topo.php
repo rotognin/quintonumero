@@ -8,5 +8,8 @@
     <b>Bem vindo(a): </b> <?php echo $_SESSION['usuNome']; ?> &nbsp;&nbsp;&nbsp;&nbsp;
     <a class="badge badge-dark" href="<?php echo $rota('logout'); ?>" role="button">Sair</a>
 </p>
+<p class="lead">
+    <b>Pontos: </b>51 - 1º na classificação geral
+</p>
 
 <hr>
