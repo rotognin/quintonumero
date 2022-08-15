@@ -22,15 +22,15 @@
                 </tr>
             </table>
         </p>
-
+        <hr>
         <div class="container">
             <h3>Responder pergunta:</h3>
-            <div class="card">Fácil</div>
-            <div class="card">Média</div>
-            <div class="card">Difícil</div>
+            <div class="row">
+                <div class="col-sm card"><a href="index.php">Fácil</a></div>
+                <div class="col-sm card"><a href="index.php">Média</a></div>
+                <div class="col-sm card"><a href="index.php">Difícil</a></div>
+            </div>
         </div>
-        
-
         
     </div>
 
