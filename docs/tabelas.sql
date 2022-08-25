@@ -42,6 +42,14 @@ CREATE TABLE `usuperguntas` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 
+CREATE TABLE `qtdperguntas` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `faceis` int NOT NULL DEFAULT '0',
+  `medias` int NOT NULL DEFAULT '0',
+  `dificeis` int NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
 
 
 /* Criação do usuário padrão */

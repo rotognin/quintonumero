@@ -3,6 +3,7 @@
 namespace Src\Model\Funcoes;
 
 use Src\Model\Entidades\Perguntas;
+use Src\Model\Funcoes\Qtdpergunta;
 use Lib\Funcoes;
 
 class Pergunta
@@ -166,6 +167,8 @@ class Pergunta
             return false;
         }
 
+        $this->atualizarQtd();
+
         return true;
     }
 
@@ -173,5 +176,13 @@ class Pergunta
     {
         $this->pergunta->status = $status;
         $this->gravar();
+
+        $this->atualizarQtd();
+    }
+
+    private function atualizarQtd()
+    {
+        $qtd = new Qtdpergunta();
+        $qtd->contarPerguntas();
     }
 }
