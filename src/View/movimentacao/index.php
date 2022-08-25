@@ -26,9 +26,9 @@
         <div class="container">
             <h3>Responder pergunta:</h3>
             <div class="row">
-                <div class="col-sm card"><a href="index.php">Fácil</a></div>
-                <div class="col-sm card"><a href="index.php">Média</a></div>
-                <div class="col-sm card"><a href="index.php">Difícil</a></div>
+                <div class="col-sm card"><a href="<?php echo $rota('facil', 'responder'); ?>">Fácil</a></div>
+                <div class="col-sm card"><a href="<?php echo $rota('media', 'responder'); ?>">Média</a></div>
+                <div class="col-sm card"><a href="<?php echo $rota('dificil', 'responder'); ?>">Difícil</a></div>
             </div>
         </div>
         

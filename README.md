@@ -3,6 +3,8 @@
 <b>Ideia: </b> Baseando-se nos 4 números fornecidos pelo sistema, encontrar a lógica contida na 
 sequência para responder qual será o quinto número.
 
+<b>Este projeto está em andamento e ainda não está finalizado</b>
+
 Este sistema é baseado em pontos. De acordo com o número de tentativas gastas para acertar o número, 
 a quantidade de pontos ganhos será diferente.
 

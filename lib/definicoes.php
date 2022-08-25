@@ -23,3 +23,13 @@ define("DIFICULDADE", array(
     '2' => 'Média',
     '3' => 'Alta'
 ));
+
+define("CAMPO_DIFICULDADE", array(
+    1 => 'faceis',
+    2 => 'medias',
+    3 => 'dificeis'
+));
+
+define("FACIL", 1);
+define("MEDIA", 2);
+define("DIFICIL", 3);

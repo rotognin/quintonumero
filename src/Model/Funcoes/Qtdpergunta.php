@@ -33,4 +33,12 @@ class Qtdpergunta
 
         $qtdperguntas->save();
     }
+
+    public function carregarQuantidade(string $dificuldade)
+    {
+        $qtdperguntas = (new Perguntas())->findById(1);
+
+        return (int) $qtdperguntas->$dificuldade;
+
+    }
 }
