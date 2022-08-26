@@ -185,4 +185,14 @@ class Pergunta
         $qtd = new Qtdpergunta();
         $qtd->contarPerguntas();
     }
+
+    public function buscarSorteada(int $dificuldade, int $indexPergunta)
+    {
+        $pergunta = (new Perguntas())
+                    ->find('status = :status AND dificuldade = :dificuldade', 'status=0&dificuldade=' . $dificuldade)
+                    ->limit(1)->offset($indexPergunta)
+                    ->fetch();
+
+        return (int) $pergunta->id ?? 0;
+    }
 }

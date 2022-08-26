@@ -1,0 +1,1 @@
+<h1>Não existem perguntas disponíveis para a dificuldade <?php echo $nivel; ?> neste momento</h1>

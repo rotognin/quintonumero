@@ -20,14 +20,11 @@ class Responder
         }
 
         $indexPergunta = rand(0, $qtdPerguntas - 1);
-        $pergunta = (new Pergunta())
-                    ->find('status = :status AND dificuldade = :dificuldade', 'status=0&dificuldade=' . $dificuldade)
-                    ->limit(1)->offset($indexPergunta)
-                    ->fetch(true);
+        $pergunta = new Pergunta();
 
+        $this->idPergunta = $pergunta->buscarSorteada($dificuldade, $indexPergunta);
 
-
-
+        return ($this->idPergunta > 0);
     }
 
     public function pegarIdSorteado()
