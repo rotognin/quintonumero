@@ -1,4 +1,3 @@
--- Active: 1657285035745@@127.0.0.1@3306@anotacoes_db
 CREATE TABLE `usuarios` (
   `id` int NOT NULL AUTO_INCREMENT,
   `nome` varchar(60) NOT NULL,
@@ -34,6 +33,7 @@ CREATE TABLE `usuperguntas` (
   `acertou` tinyint(1) DEFAULT NULL COMMENT '1 - SIM, 2 - NÃO (Desistiu), 3 - Não prosseguiu (abandonou), 4 - Não respondeu (na primeira tentativa)',
   `data_resposta` date DEFAULT NULL,
   `hora_resposta` time DEFAULT NULL,
+  `dificuldade` tinyint(1) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `fk_usuario_usuario_id_idx` (`usuario_id`),
   KEY `fk_pergunta_pergunta_id_idx` (`pergunta_id`),
@@ -53,7 +53,7 @@ CREATE TABLE `qtdperguntas` (
 
 
 /* Criação do usuário padrão */
-INSERT INTO `anotacoes_db`.`usuarios`
+INSERT INTO `quinto_db`.`usuarios`
 (`nome`, `login`, `senha`, `nivel`, `status`, `pontos`)
 VALUES
 ('Administrador', 'admin', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 1, 0, 0);
