@@ -122,6 +122,7 @@ class Usuario
 
         if ($this->novo){
             $this->usuario->status = 0;
+            $this->usuario->pontos = 0;
         }
 
         if (!$this->validarCampos()){
